@@ -3,6 +3,22 @@
   height: 100vh;
 }
 
+*{
+  box-sizing: border-box;
+  color: #fff;
+}
 body {
   margin: 0;
+}
+
+.clickable {
+  cursor: pointer;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+mesh [name="mesh"]{
+  cursor: pointer;
 }
